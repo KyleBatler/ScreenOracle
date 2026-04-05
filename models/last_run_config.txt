@@ -1,0 +1,17 @@
+imdb_subdir=data/raw/imdb
+basics_name=title.basics.tsv.gz
+ratings_name=title.ratings.tsv.gz
+train_year_end=2009
+test_year_start=2010
+test_year_end=2019
+min_votes_for_label=500
+rating_threshold=7.0
+top_genres=25
+random_state=42
+model_n_estimators=200
+model_max_depth=12
+model_min_samples_leaf=5
+model_n_jobs=-1
+models_dir=models
+artifact_name=screenoracle_forest.joblib
+threshold_name=decision_threshold.txt
